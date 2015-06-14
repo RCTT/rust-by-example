@@ -1,6 +1,4 @@
-A tuple is a collection of values of different types. Tuples are constructed
-using parentheses `()`, and each tuple itself is a value with type signature
-`(T1, T2, ...)`, where `T1`, `T2` are the types of its members. Functions can
-use tuples to return multiple values, as tuples can hold any number of values.
+元组是不同类型值的集合, 使用括弧`()`构造一个元组, 元组自身值是它的类型签名`(T1, T2, ...)`, 其中`T1`, `T2`是它成员的类型.
+函数能使用元组返回多个值, 因为元组可以包含任意数量的值.
 
 {tuples.play}
