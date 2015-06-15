@@ -1,19 +1,10 @@
-Integers `1`, floats `1.2`, characters `'a'`, strings `"abc"`, booleans `true`
-and the unit type `()` can be expressed using literals.
+整数`1`, 浮点数`1.2`, 字符`'a'`, 字符串`"abc"`, 布尔值`true`和单元类型`()`都能使用字面量表示.
 
-Integers can, alternatively, be expressed using hexadecimal, octal or binary
-notation using either of these prefixes: `0x`, `0o` or `0b`.
+整数还能使用16进制, 8进制或2进制记法,分别使用前缀`0x`, `0o`, `0b`.
 
-Underscores can be inserted in numeric literals to improve readability, e.g.
-`1_000` is the same as `1000`, and `0.000_001` is the same as `0.000001`.
+数值字面量可以通过插入下划线改善可读性, 比如: `1_000`和`1000`一样, `0.000_001`和`0.000001`一样.
 
-We need to tell the compiler what is the type of the literals we use. For now,
-we'll use the `u` suffix to indicate that the literal is an unsigned integer,
-and the `i` suffix to indicate that it's a signed integer. We'll cover the type
-system in [another chapter](/type.html), and give more details about type
-annotating literals in [their own section](/type/literals.html).
+我们需要告诉编译器所使用的字面量的类型, 现在，我们使用`u`后缀表明该字面量是一个无符号整数，`i`后缀，表明它是一个有符号整数。
 
-The operators available and their precedence are similar to other
-[C-like languages](https://en.wikipedia.org/wiki/Operator_precedence#Programming_languages).
-
+可用的操作符以及它们的优先级与其他[C系语言](https://en.wikipedia.org/wiki/Operator_precedence#Programming_languages)
 {literals.play}
