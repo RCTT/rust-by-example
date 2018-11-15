@@ -1,3 +1,3 @@
-Mutability of data can be changed when ownership is transferred.
+当所有权转移时，可以更改数据的可变性。
 
 {mut.play}

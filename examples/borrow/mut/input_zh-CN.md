@@ -1,5 +1,3 @@
-`&T` borrows the data via an immutable reference, and the borrower can read the
-data but not modify it. Mutable data can be mutably borrowed via a mutable
-reference `&mut T`, giving read/write access to the borrower.
+`&T` 是通过一个不可变的引用来借用数据，借用者可以读取数据但不能修改它。可变数据可以通过可变引用 `&mut T` 来可变地借用，从而为借用者提供读写权限。
 
 {mut.play}

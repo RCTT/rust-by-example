@@ -1,4 +1,2 @@
-When data is borrowed, it also *freezes*. *Frozen* data can't be modified via
-the original object, until all the references to it go out of scope.
-
+当数据被借用时，它也会**冻结**。**冻结**的数据不能通过原始对象进行修改，直到所有对它的引用都不在作用域内为止。
 {freeze.play}
